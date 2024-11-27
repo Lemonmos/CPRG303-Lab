@@ -1,9 +1,10 @@
 import { View, Text, Pressable, StyleSheet, ScrollView } from "react-native";
 import React from "react";
 
-const Todolist = ({ tasks }) => {
+const TodoList = ({ tasks }) => {
   return (
     <ScrollView>
+      <Text>Todo List</Text>
       {tasks.map((task, index) => (
         <Pressable key={index}>
           <View style={[styles.task, styles.completed]}>
@@ -26,7 +27,8 @@ const styles = StyleSheet.create({
   },
   taskText: {
     fontSize: 16,
+    color: "#000000",
   },
 });
 
-export default Todolist;
+export default TodoList;

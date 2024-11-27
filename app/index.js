@@ -3,7 +3,7 @@ import App from "../component/app.js";
 
 export default function Page() {
   return (
-    <View>
+    <View style={{ flex: 1 }}>
       <App />
     </View>
   );

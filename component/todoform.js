@@ -2,7 +2,7 @@ import { View, Text, StyleSheet, TextInput, Button } from "react-native";
 import React from "react";
 import { useState } from "react";
 
-const Todoform = ({ addTask }) => {
+const TodoForm = ({ addTask }) => {
   const [taskText, setTaskText] = React.useState("");
 
   return (
@@ -42,4 +42,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Todoform;
+export default TodoForm;
