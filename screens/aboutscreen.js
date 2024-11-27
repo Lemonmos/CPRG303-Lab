@@ -7,9 +7,9 @@ const AboutScreen = () => {
   const navigation = useNavigation();
   return (
     <MainLayout>
-      <Text>About Screen</Text>
-      <Text>Project Name: </Text>
-      <Text>Author Name:</Text>
+      <Text>About</Text>
+      <Text>Project Name: Todo List</Text>
+      <Text>Author Name: Jiaping Liu</Text>
       <Button title="Go to Home" onPress={() => navigation.navigate("Home")} />
     </MainLayout>
   );
