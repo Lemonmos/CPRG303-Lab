@@ -4,8 +4,7 @@ import App from "../component/app.js";
 export default function Page() {
   return (
     <View>
-        <App/>
+      <App />
     </View>
   );
 }
-
